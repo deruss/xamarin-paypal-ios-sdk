@@ -74,8 +74,6 @@ namespace PayPalMobileSample2
         {
             base.ViewWillAppear (animated);
 
-            UIImage.FromBundle ("F");
-
             UIEdgeInsets insets = new UIEdgeInsets (0, 15f, 0, 14f);
             UIImage payBackgroundImage = UIImage.FromBundle ("button_secondary.png").CreateResizableImage (insets);
             UIImage payBackgroundImageHighlighted = UIImage.FromBundle ("button_secondary_selected.png").CreateResizableImage (insets);
