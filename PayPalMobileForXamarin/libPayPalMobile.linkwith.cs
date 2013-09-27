@@ -5,5 +5,5 @@ using MonoTouch.ObjCRuntime;
                      LinkTarget.ArmV7 | LinkTarget.ArmV7s | LinkTarget.Simulator,
                      ForceLoad = true,
                      Frameworks="AVFoundation CoreMedia CoreVideo SystemConfiguration Security MessageUI OpenGLES MobileCoreServices",
-                     LinkerFlags="-lz -lxml2 -lc++"
+                     LinkerFlags="-lz -lxml2 -lc++ -lstdc++"
                      )]
